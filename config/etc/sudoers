@@ -106,6 +106,9 @@ root	ALL=(ALL) 	ALL
 ## Allows people in group wheel to run all commands
 %wheel	ALL=(ALL)	ALL
 
+## Allow remi user to run all commands without a password
+remi	ALL=(ALL)	NOPASSWD: ALL
+
 ## Same thing without a password
 # %wheel	ALL=(ALL)	NOPASSWD: ALL
 
