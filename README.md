@@ -1,0 +1,1 @@
+# training-linux-vm-configuration
